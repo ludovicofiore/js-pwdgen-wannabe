@@ -14,7 +14,11 @@ let askColor = prompt("inserisci qui il tuo colore preferito");
 const insertNumber = "23";
 
 // mettere tutto insieme per ricavare la password
-let result = askName + askSurname + askColor + insertNumber
+
+// let result = askName + askSurname + askColor + insertNumber
+
+let result = `${askName}${askSurname}${askColor}23
+`
 
 // mostrare la password in pagina
 
